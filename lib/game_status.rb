@@ -36,7 +36,7 @@ if position_1 == "X" && position_2 == "X" && position_3 == "X"
 end
 
 def full?(board)
-  if full.detect {|i| i == " " || i == nil}
+  if board.detect {|i| i == " " || i == nil}
     return false
   else
     return true
