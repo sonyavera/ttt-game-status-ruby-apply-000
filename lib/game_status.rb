@@ -21,7 +21,7 @@ WIN_COMBINATIONS = [
       win_index_2 = win_combination[1] #=> [3,4,5], right?
       win_index_3 = win_combination[2] #=> [6,7,8], right?
 
-position_1 = board[win_index_1] #=> 
+position_1 = board[win_index_1]
 position_2 = board[win_index_2]
 position_3 = board[win_index_3]
 
